@@ -16,8 +16,8 @@
 
 
     <script src="../JS/Tables.js"></script>
-    <link rel="stylesheet" href="../CSS/IndexProgramacion.css">
-    <title>Index Programacion</title>
+    <link rel="stylesheet" href="/Produccion/GestionInsumos/CSS/IndexInsumos.css">
+    <title>Index Insumos</title>
 
     
 
@@ -30,26 +30,29 @@
         
       
       
-        <h5>Tabla Programacion</h5>
+        <h5>Tabla Insumos</h5>
         <div class="DivBuscador">
             
-              <input class="buscador tabla" data-table="order-table" type="text" placeholder="busqueda"autocomplete="off">
+              <input class="buscador tabla" data-table="order-table" type="text" placeholder="busqueda">
         </div>
         <div class="DivBtn">
-          <a href="../HTML/CrearProgramacion.html"class="btnCrear">Crear Programacion</a>
+          <a href="/Produccion/GestionInsumos/HTML/CrearInsumos.html"class="btnCrear">Crear Insumos</a>
         </div>
   
         <table class="table table-bordered order-table ">
           <thead>
             <tr>
-                <th>Turno</th>
-              <th>Turno</th>
-              <th>Fecha</th>
+              <th>Material</th>
+              <th>Cantidad (KG)</th>
+              <th>Color</th>
+              
+              <th colspan="2">Funciones</th>
             </tr>
           </thead>
           <tr>
-            <td>Mañana</td>
-            <td>Todos</td>
+            <td>Policarbonato</td>
+            <td>1000</td>
+            <td>naranja</td>
             <td>
             <label class="toggle" for="myToggle">
               <input class="toggle__input" name="" type="checkbox" id="myToggle">
@@ -58,7 +61,7 @@
                
             </td>
             <td>
-              <a href="../HTML/EditarPermiso.html"><img src="../IMG/EditarIcon.svg" alt="" width="20" height="20" class="EditarIcon"></a>
+              <a href="/Produccion/GestionInsumos/HTML/EditarInsumos.html"><img src="../IMG/EditarIcon.svg" alt="" width="20" height="20" class="EditarIcon"></a>
             </td>
            
           </tr>
